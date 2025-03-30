@@ -1,4 +1,4 @@
-package com.recipe_app_api;
+package recipe.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
