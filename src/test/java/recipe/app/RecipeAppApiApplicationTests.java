@@ -1,4 +1,4 @@
-package com.recipe_app_api;
+package recipe.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
