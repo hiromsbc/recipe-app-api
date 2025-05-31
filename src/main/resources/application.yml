@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: ${SHOW_SQL}
+    properties:
+      hibernate:
+        format_sql: ${FORMAT_SQL}
+        dialect: org.hibernate.dialect.PostgreSQLDialect 
